@@ -169,6 +169,12 @@ namespace CalculatorApp
         }
         public static double Division(double n1, double n2)
         {
+            if (n2 == 0)
+            {
+                MessageBox.Show("Divison by 0 is not supported", "Wrong Operation", MessageBoxButton.OK,
+                    MessageBoxImage.Error);
+                return 0;
+            }
             return n1 / n2;
         }
     }
