@@ -34,7 +34,8 @@
                 Grid.Row="1" Grid.Column="2"  Margin="5"></Button>
         <Button x:Name="divisonButton" Content="/" 
                 Grid.Row="1" Grid.Column="3"  Margin="5"></Button>
-        <Button x:Name="seventhButton" Content="7" 
+        <Button x:Name="seventhButton" Content="7"
+                Click="SeventhButton_OnClick"
                 Grid.Row="2"  Margin="5"></Button>
         <Button x:Name="eigththButton" Content="8" 
                 Grid.Row="2" Grid.Column="1"  Margin="5"></Button>
@@ -64,6 +65,5 @@
                 Grid.Row="5" Grid.Column="2"  Margin="5"></Button>
         <Button x:Name="equalsButton" Content="=" 
                 Grid.Row="5" Grid.Column="3"  Margin="5"></Button>
-
     </Grid>
 </Window>

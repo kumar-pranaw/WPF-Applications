@@ -23,7 +23,20 @@ namespace CalculatorApp
         public MainWindow()
         {
             InitializeComponent();
-            resultLabel.Content = "143";
+            resultLabel.Content = "0";
+        }
+
+        private void SeventhButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (resultLabel.Content.ToString() == "0")
+            {
+                resultLabel.Content = "7";
+            }
+            else
+            {
+                resultLabel.Content = $"{resultLabel.Content}7";
+            }
+           
         }
     }
 }
