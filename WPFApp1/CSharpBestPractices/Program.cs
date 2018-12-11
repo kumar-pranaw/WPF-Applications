@@ -10,7 +10,6 @@ namespace CSharpBestPractices
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
